@@ -10,12 +10,13 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    /* background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); */
+    background-color: rgb(49, 45, 45);
 }
 
 .wrapper {
     width: 440px;
-    background-color: #fff;
+    background-color: rgb(153, 144, 144);
     box-shadow: 0 0 10px #000;
 }
 
@@ -48,14 +49,14 @@ h1 {
 
 .form-box.error input {
     border: 1px solid rgb(0, 137, 250);
-    background-color: rgba(0, 137, 250, .1);
+    background-color: rgba(53, 160, 32, 0.1);
 }
 
 .form-box .error-text {
     visibility: hidden;
     margin: 5px 0 0 10px;
     font-size: 14px;
-    color: rgb(0, 137, 250);
+    color:blue;
 }
 
 .form-box.error .error-text {
